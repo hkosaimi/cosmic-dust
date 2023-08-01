@@ -1,4 +1,23 @@
 .brand {
-  height: 700px;
   background: linear-gradient(90deg, rgb(3, 3, 57) 0%, rgb(9, 8, 80) 100%);
+
+  padding: 50px 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.brand__slide {
+  display: inline-block;
+  animation: 30s slide infinite linear;
+}
+.brand__slide img {
+  margin: 0 40px;
+}
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
