@@ -1,5 +1,5 @@
 .header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../../assets/spacedust.png");
   background-size: cover;
   background-position: center;
@@ -40,6 +40,7 @@
   font-size: 62px;
   font-weight: 800;
   line-height: 75px;
+  font-family: "Inter";
 }
 
 .header__left__des {
@@ -92,10 +93,13 @@
   }
 
   .img1 {
-    left: 30px;
+    left: 10px;
   }
   .header__left__title h1 {
     font-size: 50px;
-    line-height: 67px;
+    line-height: 60px;
+  }
+  .header__left__email button {
+    padding: 10px;
   }
 }
