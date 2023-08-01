@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/cosmic_dust/static/css/main.3e51f9ad.css",
-    "main.js": "/cosmic_dust/static/js/main.812d036b.js",
+    "main.css": "/cosmic_dust/static/css/main.f6824c12.css",
+    "main.js": "/cosmic_dust/static/js/main.5a7ba3de.js",
     "static/media/spacedust.png": "/cosmic_dust/static/media/spacedust.c263206a0ac0b7c8d4e3.png",
     "static/media/v.png": "/cosmic_dust/static/media/v.c4745f721b29082d3bf0.png",
     "static/media/m.png": "/cosmic_dust/static/media/m.73c133dfe99e649e736f.png",
     "index.html": "/cosmic_dust/index.html",
-    "main.3e51f9ad.css.map": "/cosmic_dust/static/css/main.3e51f9ad.css.map",
-    "main.812d036b.js.map": "/cosmic_dust/static/js/main.812d036b.js.map"
+    "main.f6824c12.css.map": "/cosmic_dust/static/css/main.f6824c12.css.map",
+    "main.5a7ba3de.js.map": "/cosmic_dust/static/js/main.5a7ba3de.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e51f9ad.css",
-    "static/js/main.812d036b.js"
+    "static/css/main.f6824c12.css",
+    "static/js/main.5a7ba3de.js"
   ]
 }
