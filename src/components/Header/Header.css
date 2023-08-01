@@ -12,6 +12,8 @@
 .header__left {
   flex: 1;
 }
+.header__left__title {
+}
 .header__right {
   display: flex;
   flex: 1;
@@ -96,7 +98,7 @@
     left: 10px;
   }
   .header__left__title h1 {
-    font-size: 50px;
+    font-size: 45px;
     line-height: 60px;
   }
   .header__left__email button {

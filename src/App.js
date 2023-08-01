@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Header/Header";
 import Brand from "./components/Brand/Brand";
+import Templates from "./components/Templates/Templates";
 function App() {
   return (
     <>
@@ -9,6 +10,7 @@ function App() {
         <Navbar />
         <Header />
         <Brand />
+        <Templates />
       </div>
     </>
   );
