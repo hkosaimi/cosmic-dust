@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/cosmic_dust/static/css/main.f6824c12.css",
-    "main.js": "/cosmic_dust/static/js/main.5a7ba3de.js",
+    "main.css": "/cosmic_dust/static/css/main.a5463eb1.css",
+    "main.js": "/cosmic_dust/static/js/main.efc2f47e.js",
+    "static/media/2.png": "/cosmic_dust/static/media/2.d2e1435fc545d9b43b76.png",
+    "static/media/1.png": "/cosmic_dust/static/media/1.0ecf80983ea092bd554f.png",
+    "static/media/4.png": "/cosmic_dust/static/media/4.0c87fd18ab232e92498d.png",
     "static/media/spacedust.png": "/cosmic_dust/static/media/spacedust.c263206a0ac0b7c8d4e3.png",
+    "static/media/3.png": "/cosmic_dust/static/media/3.169ee518e02262d0217c.png",
     "static/media/v.png": "/cosmic_dust/static/media/v.c4745f721b29082d3bf0.png",
     "static/media/m.png": "/cosmic_dust/static/media/m.73c133dfe99e649e736f.png",
     "index.html": "/cosmic_dust/index.html",
-    "main.f6824c12.css.map": "/cosmic_dust/static/css/main.f6824c12.css.map",
-    "main.5a7ba3de.js.map": "/cosmic_dust/static/js/main.5a7ba3de.js.map"
+    "main.a5463eb1.css.map": "/cosmic_dust/static/css/main.a5463eb1.css.map",
+    "main.efc2f47e.js.map": "/cosmic_dust/static/js/main.efc2f47e.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6824c12.css",
-    "static/js/main.5a7ba3de.js"
+    "static/css/main.a5463eb1.css",
+    "static/js/main.efc2f47e.js"
   ]
 }
