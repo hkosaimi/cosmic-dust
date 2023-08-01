@@ -1,6 +1,6 @@
 .navbar {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("../assets/spacedust.png");
+    url("../../assets/spacedust.png");
   background-size: cover;
   color: #fff;
   display: flex;
