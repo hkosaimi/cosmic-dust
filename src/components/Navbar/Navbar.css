@@ -47,9 +47,12 @@
 .navbar__sign button:hover {
   cursor: pointer;
 }
+.menu_icon {
+  display: none;
+}
 
 @media screen and (max-width: 767px) {
-  .navbar__links {
+  .navbar__links-container {
     display: none;
   }
   .navbar__sign {
@@ -65,5 +68,30 @@
   .navbar__logo img {
     width: 35px;
     height: 30px;
+  }
+  .navbar__links {
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    z-index: 9;
+    right: 0;
+    row-gap: 70px;
+    top: 0;
+    padding: 6rem 0;
+    background: rgba(0, 0, 0, 0.9);
+  }
+  .navbar__links p a {
+    font-size: 25px;
+    user-select: none;
+  }
+  .navbar__links p a:hover {
+    opacity: 0.6;
+  }
+  .menu_icon {
+    z-index: 100000;
+    display: block;
   }
 }
