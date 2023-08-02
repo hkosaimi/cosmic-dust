@@ -5,28 +5,47 @@ import t3 from "../../assets/3.png";
 import t4 from "../../assets/4.png";
 import t5 from "../../assets/5.png";
 import t6 from "../../assets/6.png";
+import { motion } from "framer-motion";
 function Templates() {
   return (
     <>
       <div className="templates">
-        <div className="templates__pics">
+        <motion.div
+          className="templates__pics"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}>
           <img src={t1} />
-        </div>
-        <div className="templates__pics">
+        </motion.div>
+        <motion.div
+          className="templates__pics"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}>
           <img src={t2} />
-        </div>
-        <div className="templates__pics">
+        </motion.div>
+        <motion.div
+          className="templates__pics"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}>
           <img src={t3} />
-        </div>
-        <div className="templates__pics">
+        </motion.div>
+        <motion.div
+          className="templates__pics"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}>
           <img src={t4} />
-        </div>
-        <div className="templates__pics">
+        </motion.div>
+        <motion.div
+          className="templates__pics"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}>
           <img src={t5} />
-        </div>
-        <div className="templates__pics">
+        </motion.div>
+        <motion.div
+          className="templates__pics"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}>
           <img src={t6} />
-        </div>
+        </motion.div>
       </div>
     </>
   );

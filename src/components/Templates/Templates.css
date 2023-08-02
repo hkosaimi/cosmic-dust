@@ -13,12 +13,10 @@
   height: 400px;
   box-shadow: 0 0 10px rgb(0, 0, 0);
   border-radius: 16px;
+  animation: opa 2s;
 }
 .templates__pics img {
   width: 100%;
   height: 100%;
   border-radius: 16px;
-}
-.templates__pics:hover {
-  transform: translateY(-10px);
 }

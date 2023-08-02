@@ -2,8 +2,7 @@ import "./Navbar.css";
 import logo from "../../assets/logo.png";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
-
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 function Menu() {
   return (
@@ -52,7 +51,9 @@ function Navbar() {
           ) : (
             <HiOutlineMenuAlt4
               className="menu_icon"
-              onClick={() => setToggle(true)}
+              onClick={() => {
+                setToggle(true);
+              }}
             />
           )}
           {toggle && (
